@@ -1,0 +1,218 @@
+<html>
+  <body>
+    <div class="sidecontainer">
+      <aside>
+        <div class="flex-container">
+          <span class="material-symbols-outlined" id="arrow">
+            arrow_back_ios
+          </span>
+          <p>Contacts</p>
+          <span class="material-symbols-outlined" id="pencil"> edit </span>
+        </div>
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+        <!-- </head> -->
+
+        <button class="accordion">
+          <div class="accordion-text">
+            <p>Personal Details</p>
+            <span class="material-symbols-outlined" id="drop">
+              expand_more
+            </span>
+          </div>
+        </button>
+
+        <div class="panel">
+          <div class="content">
+            <label for="cars">Status</label>
+            <select id="stat" class="status" name="cars" class="side">
+              <option value="volvo">In Process</option>
+              <option value="saab">Saab</option>
+              <option value="fiat">Fiat</option>
+              <option value="audi">Audi</option>
+            </select>
+          </div>
+
+          <hr style="border-color: white" class="br1" />
+          <div class="content2">
+            <label for="cars">Owner</label>
+            <select class="status" name="cars" class="side">
+              <option value="volvo">Noah</option>
+              <option value="saab">Achu</option>
+              <option value="fiat">Keerthy</option>
+              <option value="audi">Rosemary</option>
+            </select>
+          </div>
+          <hr style="border-color: white" class="br2" />
+          <div class="content3">
+            <label for="cars">Created</label>
+            <td>
+              <label
+                ><input
+                  type="date"
+                  name="dateofbirth"
+                  size="30"
+                  id="date"
+                  class="side"
+              /></label>
+            </td>
+          </div>
+          <hr style="border-color: white" />
+          <div class="content4">
+            <label for="cars">Last Updated</label>
+            <td>
+              <label
+                ><input
+                  type="date"
+                  name="dateofbirth"
+                  size="30"
+                  id="ldate"
+                  class="side"
+              /></label>
+            </td>
+          </div>
+          <hr style="border-color: white" class="br3" />
+          <div class="content5">
+            <label for="cars" id="lead">Lead Source</label>
+            <td>
+              <label size="13" id="lsource" class="side"
+                ><strong>Landing Page</strong>
+              </label>
+            </td>
+          </div>
+          <hr style="border-color: white" class="br4" />
+          <label for="cars">Adding tags(optional)</label>
+          <select class="tag" name="cars" style="width: 265px" class="side">
+            <option value="volvo">Tags</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+          </select>
+          <div id="cl">
+            <p class="tg">
+              Tags<span
+                class="material-symbols-outlined"
+                onclick="windowClose()"
+              >
+                close
+              </span>
+            </p>
+            <p class="tg">
+              Tags<span class="material-symbols-outlined"> close </span>
+            </p>
+            <p class="tg">
+              Tags<span class="material-symbols-outlined"> close </span>
+            </p>
+          </div>
+        </div>
+
+        <button class="accordion">
+          <div class="accordion-text">
+            <p>Contact Details</p>
+            <span class="material-symbols-outlined" id="drop">
+              expand_more
+            </span>
+          </div>
+        </button>
+
+        <div class="pan">
+          <img
+            src="img/phone.svg"
+            class="phone"
+            height="20"
+            alt="phone"
+            align="left"
+          />
+          <div class="panel2">
+            <ul style="list-style: none">
+              <!-- <div class="num"> -->
+              <li><a href="054-884-8785"></a></li>
+              <li><a href="“tel:555-666-7777”">555-666-7777</a></li>
+              <li>054-884-8785</li>
+              <li>054-884-8785</li>
+              <li>054-884-8785</li>
+            </ul>
+          </div>
+          <hr style="border-color: white" class="hr" />
+
+          <img
+            src="img/email.svg"
+            class="mail"
+            height="20"
+            alt="phone"
+            align="left"
+          />
+          <div class="panel2">
+            <ul style="list-style: none">
+              <li><a href="“tel:ani452@gmail.com”">ani452@gmail.com</a></li>
+              <li>ani452@gmail.com</li>
+              <li>alan@gmail.com</li>
+              <li>rose12@gmail.com</li>
+              <li>keeru@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+        <button class="accordion">
+          <div class="accordion-text">
+            <p>Custom Field</p>
+            <span class="material-symbols-outlined" id="drop">
+              expand_more
+            </span>
+          </div>
+        </button>
+
+        <div class="panel">
+          <label for="cars" id="check">Checkboxes</label>
+          <div class="check-container">
+            <div class="check-container">
+              <input
+                type="checkbox"
+                id="vehicle1"
+                name="vehicle1"
+                value="Bike"
+                class="ch"
+              />
+              <label for="vehicle1"> Owner</label>
+            </div>
+            <div class="check-container">
+              <input
+                type="checkbox"
+                id="vehicle2"
+                name="vehicle2"
+                value="Car"
+                class="ch"
+              />
+              <label for="vehicle2"> Leed Source</label>
+            </div>
+
+            <div class="check-container">
+              <input
+                type="checkbox"
+                id="vehicle3"
+                name="vehicle3"
+                value="Boat"
+                class="ch"
+              />
+              <label for="vehicle3"> Status</label>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  gap: 20px;
+  justify-content: first baseline;
+}
+.one {
+  margin-left: 35px;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  /* justify-content: space-between; */
+  background-color: rgba(238, 238, 238, 0.233);
+  color: blue;
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.accordion-text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 5px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 40px; */
+  background-color: white;
+  align-items: flex-start !important;
+  overflow: hidden;
+}
+.content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 30px;
+}
+.content2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.content3 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.content4 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.content5 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.two,
+.five,
+.six {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 5px;
+  gap: 30px;
+}
+.info {
+  display: flex;
+  align-items: center;
+}
+.two a {
+  justify-content: right;
+  color: white;
+  font-family: Assistant;
+  text-decoration: none;
+}
+.two a:hover {
+  color: rgb(215, 107, 12);
+}
+.five input {
+  background-color: rgb(66, 63, 63);
+  width: 250px;
+  height: 45px;
+  border: none;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 0, "opsz" 20;
+}
+
+.six button {
+  background-color: rgb(49, 48, 48);
+  border: 2px solid rgb(215, 157, 12);
+  color: rgb(215, 157, 12);
+  height: 30px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 300px;
+}
+.sidecontainer {
+  background-color: white;
+  color: blue;
+  width: 300px;
+  height: 100vh;
+  margin: right;
+  /* margin-left: 10px; */
+  justify-content: space-evenly;
+}
+.flex-container {
+  /* font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  margin-bottom: 10px;
+  margin-top: 10px; */
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+#pencil {
+  margin-left: 170px;
+  color: black;
+}
+aside {
+  background-color: white;
+  /* border-top: 0 solid #e6edee; */
+  border-bottom: 2px solid #ebf2f3;
+  /* border-left: 2px solid rgb(190, 195, 201); */
+  border-right: 1px solid rgb(190, 195, 201);
+  padding: 5px 15px;
+  font-family: Assistant;
+  width: 100%;
+}
+aside {
+  flex: 0 0 100px;
+}
+
+#drop {
+  align-items: right;
+  margin-left: 160px;
+}
+.panel {
+  display: flex;
+  text-align: left;
+  color: black;
+  border: 1px solid white;
+  width: 270px;
+  /* height: 440px; */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+.check-container {
+  display: flex;
+  gap: 10px;
+}
+.side {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  /* width: 100px; */
+  /* margin-left: 190px; */
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.tag {
+  display: flex;
+  justify-content: center;
+}
+.status {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  /* margin-left: 210px; */
+  /* margin-top: 10px;
+  margin-bottom: 20px; */
+}
+#stat {
+  color: blue;
+}
+.tg {
+  display: flex;
+  border: 1px solid rgb(58, 121, 163);
+  outline: #eaf4f7 solid 1px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  align-items: left;
+  margin-top: 10px;
+  border-radius: 0%;
+  vertical-align: 10px;
+  display: inline-block;
+}
+#cl {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.panel2 {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.phone {
+  display: flex;
+  border: 1px solid white;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.mail {
+  display: flex;
+  border: 1px solid white;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.pan {
+  width: 270px;
+  height: 280px;
+  color: black;
+}
+.br1,
+.br2,
+.br3,
+.br4 {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
