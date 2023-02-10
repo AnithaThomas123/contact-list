@@ -1,0 +1,10 @@
+.margin3 {
+  border-left: 1px solid lightblue;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  margin-left: 444px;
+  top: 155px;
+  display: flex;
+  flex-direction: column;
+}

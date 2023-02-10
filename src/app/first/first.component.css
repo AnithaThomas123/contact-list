@@ -8,7 +8,7 @@
 
 .row1 {
   justify-content: flex-start;
-  margin-top: -635px;
+  margin-top: -630px;
   margin-left: 400px;
   display: flex;
   gap: 10px;
@@ -19,8 +19,8 @@
   flex-direction: column;
   /* flex: 0 0 300px; */
   font-family: "Assistant";
-  padding-top: 0px;
-  gap: 10px;
+  padding-top: 0;
+  gap: 1px;
 }
 .nmj strong {
   /* color: rgb(10, 147, 215); */
@@ -32,4 +32,59 @@
 .nmj p {
   color: #ccc;
   font-family: "Assistant";
+  margin-top: 8px;
 }
+.margin2 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid lightblue;
+  margin: 10px 295px;
+  margin-left: 300px;
+  margin-right: 230px;
+}
+.ac {
+  font-size: 15px;
+  margin-left: 400px;
+  display: flex;
+  gap: 30px;
+}
+
+.ac a {
+  text-decoration: none;
+  color: black;
+  text-shadow: -0.25px -0.25px 0 transparent, 0.25px 0.25px transparent;
+}
+.ac a:hover {
+  text-shadow: -0.25px -0.25px 0 black, 0.25px 0.25px black;
+  text-decoration: none;
+}
+.name1 {
+  display: flex;
+  margin-left: 710px;
+  margin-top: 1px;
+  justify-content: flex-start;
+  margin-top: -70px;
+}
+.link2 {
+  font-size: 15px;
+  margin-left: 1118px;
+  display: flex;
+  align-items: flex-start;
+  margin-top: -170px;
+  gap: 20px;
+}
+
+.link2 a {
+  text-decoration: none;
+  color: black;
+  text-shadow: -0.25px -0.25px 0 transparent, 0.25px 0.25px transparent;
+}
+.link2 a:hover {
+  text-shadow: -0.25px -0.25px 0 black, 0.25px 0.25px black;
+  text-decoration: none;
+}
+/* .first {
+  margin-left: 100px;
+  display: flex;
+  margin-top: 10px;
+} */

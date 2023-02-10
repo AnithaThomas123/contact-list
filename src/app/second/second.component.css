@@ -1,0 +1,75 @@
+.all {
+  background-color: lightblue;
+}
+.row {
+  display: flex;
+  /* flex-direction: column; */
+  /* border-radius: 8px; */
+  margin-left: 350px;
+  gap: 3px;
+  font-family: "Assistant";
+  align-items: center;
+  /* width: 700px; */
+  /* height: 100px; */
+}
+
+.row2 {
+  /* display: flex; */
+  border-radius: 8px;
+  border: 2px solid rgb(192, 221, 236);
+  /* gap: 1px; */
+  width: 700px;
+  /* height: 100px; */
+  height: auto;
+  margin-left: 350px;
+  padding: 10px;
+  background-color: white;
+  font-family: "Assistant";
+}
+.row3 {
+  /* display: flex; */
+  border-radius: 8px;
+  border: 2px solid rgb(192, 221, 236);
+  /* gap: 1px; */
+  width: 700px;
+  /* height: 100px; */
+  height: auto;
+  margin-left: 350px;
+  padding: 10px;
+  background-color: white;
+}
+.first {
+  display: flex;
+  border-radius: 4px;
+  /* gap: 1px; */
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-left: 5px;
+  align-items: center;
+}
+.midcol {
+  display: flex;
+  gap: 4px;
+  margin-left: 85px;
+  align-items: center;
+  /* align-items: center; */
+}
+
+.lastcol {
+  display: flex;
+  gap: 30px;
+  margin-left: 147px;
+}
+.lastcol p {
+  display: flex;
+}
+.sb {
+  display: flex;
+  margin-left: 430px;
+  align-items: center;
+}
+/* .rowmain {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+} */
